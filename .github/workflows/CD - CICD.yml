@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "Test"
+  IMAGE_NAME: "test"
   GITHUB_ACTOR: "thelittlecat200"
 
 jobs:
