@@ -31,12 +31,12 @@ jobs:
 
     - name: Build
       run: dotnet build ${{ env.SOLUTION_PATH }}
-        --configartion Release
+        --configuration Release
         --no-restore
 
     - name: Test
       run: dotnet test ${{ env.SOLUTION_PATH }}
-        --configartion Release
+        --configuration Release
         --no-restore
         --no-build
         --verbosity normal
